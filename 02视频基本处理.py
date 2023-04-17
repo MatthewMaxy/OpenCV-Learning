@@ -15,3 +15,5 @@ while open:
 			break
 vc.release()
 cv2.destroyAllWindows()
+
+
