@@ -32,3 +32,12 @@ def deallmg(img):
 img_dog = cv2.resize(img_dog, (725, 591))   # 像素变换 （！！！顺序！！！）
 ```
 
+#### 4. hstack（）
+
+```python
+# 拼接展示图像
+# ! res = np.hstack(img, sobelxy, scharrxy, laplacian)
+# 传入的应为元组
+res = np.hstack((img, sobelxy, scharrxy, laplacian))
+```
+
